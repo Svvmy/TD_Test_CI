@@ -1,0 +1,10 @@
+cp = CartePizzeria()
+cp.is_empty()
+pizza1 = "barbecue"
+pizza2 = "alg"
+print(cp.pizzas)
+cp.add_pizza(pizza1)
+print(cp.pizzas)
+cp.nb_pizzas()
+cp.remove_pizza('test')
+print(cp.pizzas)
